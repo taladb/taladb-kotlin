@@ -13,6 +13,9 @@ Documents, MongoDB-style filters and updates, secondary and compound indexes,
 full-text search, vector search and hybrid search, with optional encryption at
 rest. Everything runs on the device in a single file.
 
+See it running in [Notewell](https://play.google.com/store/apps/details?id=dev.thinkgrid.notewell), a native Android app on Google Play
+built with this package.
+
 ## Install
 
 ```kotlin
