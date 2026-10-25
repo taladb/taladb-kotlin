@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2 — 2026-10-25
+
+- Built on TalaDB engine v0.12.1.
+- `0.12.1` on Maven Central was published by mistake: it is 0.1.1 built on engine v0.12.0. Use 0.1.2 instead.
+
 ## 0.1.1 — 2026-10-04
 
 - Fixed: leaving a screen no longer freezes the UI while its live queries unsubscribe.
