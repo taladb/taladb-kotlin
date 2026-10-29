@@ -17,7 +17,7 @@ rest. Everything runs on the device in a single file.
 
 ```kotlin
 dependencies {
-    implementation("dev.taladb:taladb-android:0.13.0")
+    implementation("dev.taladb:taladb-android:0.2.0")
 }
 ```
 
