@@ -20,7 +20,7 @@ built with this package.
 
 ```kotlin
 dependencies {
-    implementation("dev.taladb:taladb-android:0.2.1")
+    implementation("dev.taladb:taladb-android:0.2.2")
 }
 ```
 
