@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.3 — 2026-11-21
+
+- Built on TalaDB engine v0.13.3. That engine release fixes React Native on iOS only: the core engine, its Android build and the C ABI are unchanged, so this release behaves like 0.2.2. No API or storage format change; no index rebuild needed. Details: [engine changelog](https://github.com/taladb/taladb/blob/main/CHANGELOG.md#0133--2026-11-21).
+
 ## 0.2.2 — 2026-11-20
 
 - Built on TalaDB engine v0.13.2. **If you use encryption, update.** In 0.2.1 and earlier, opening an encrypted database without a passphrase could damage it: from then on the correct passphrase could not open it. Now that open throws `TalaDBException` with code `ENCRYPTION` and writes nothing, as the `passphrase` docs already said. Opening a plaintext database with a passphrase also throws now, instead of leaving a `.taladb-salt` file next to it. A file already damaged by an earlier release is refused with or without the passphrase; the repair needs Rust and is described in the engine changelog.
